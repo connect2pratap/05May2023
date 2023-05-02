@@ -1,0 +1,500 @@
+   38  ls
+   39  cd pratap
+   40  git status
+   41  git add .
+   42  git status
+   43  git status -s
+   44  git commit -m "adding demo and ppp"
+   45  git satus -s
+   46  git status -s
+   47  git status
+   48  cd ..
+   49  cd ravi
+   50  ls
+   51  ls -la
+   52  cd ..
+   53  rm -rf ravi
+   54  ls
+   55  mkdir ravi
+   56  cd ravi
+   57  git status
+   58  git init 
+   59  vi test
+   60  git status
+   61  git status 
+   62  git status -s
+   63  git add test 
+   64  git status 
+   65  git status -s
+   66  vi test
+   67  git status
+   68  git status -s
+   69  git log
+   70  git commit -m "first commit"
+   71  git status
+   72  git log
+   73  git status -s
+   74  git add .
+   75  git status -s
+   76  git remote add origin https://github.com/connect2pratap/26Jun2023.git
+   77  git remote
+   78  git remote -v
+   79  git status -s
+   80  git commit -m "2nd update"
+   81  git  status -s
+   82  vi test1
+   83  git statsu -s
+   84  git status -s
+   85  git status
+   86  git commit -am "3rd update without staging"
+   87  git commit -am "3rd update without staging" test1
+   88  git commit -am "3rd update without staging" .
+   89  git commit test1 -am "3rd update without staging" 
+   90  git add test1
+   91  git status -s
+   92  git commit -m "4th commit"
+   93  git status 
+   94  vi test1
+   95  git status -s
+   96  git status 
+   97  git commit -am "5th Commit without staging"
+   98  git log
+   99  git push origin master
+  100  git push origin master
+  101  vi test2
+  102  git add test2
+  103  git commit -m "2nd commit to local repository"
+  104  git status -s
+  105  git push origin master
+  106  git -version
+  107  git --version
+  108  exit
+  109  git status
+  110  git log
+  111  git branch 
+  112  git branch branch1
+  113  git branch
+  114  git log
+  115  git checkout branch1
+  116  git checkout master
+  117  git status -s
+  118  git log --oneline
+  119  git log
+  120  git status -s
+  121  git log --oneline
+  122  history | grep ls-files
+  123  ls
+  124  git log
+  125  git push origin master
+  126  git pull origin master
+  127  ll
+  128  rm *
+  129  ll
+  130  ls -la
+  131  git pull origin master
+  132  git clone https://github.com/connect2pratap/26Jun2023.git
+  133  ll
+  134  cd 26Jun2023/
+  135  ll
+  136  git pull origin branch1
+  137  cd ..
+  138  ll
+  139  gh repo clone connect2pratap/26Jun2023
+  140  ll
+  141  rm -rf 26Jun2023/
+  142  git clone https://github.com/connect2pratap/26Jun2023.git
+  143  ll
+  144  cd 26Jun2023/
+  145  ll
+  146  git pull origin master
+  147  ls
+  148  rm *
+  149  ll
+  150  ls -la
+  151  git pull origin master
+  152  git clone https://github.com/connect2pratap/26Jun2023.git
+  153  ll
+  154  git clone https://github.com/connect2pratap/26Jun2023.git
+  155  mv 26Jun2023/ bk_26Jun2023/
+  156  git clone https://github.com/connect2pratap/26Jun2023.git
+  157  cd ..
+  158  ll
+  159  cd ..
+  160  cd pratap
+  161  ll -la
+  162  git remote add pkorigin https://github.com/connect2pratap/26Jun2023.git
+  163  git remote
+  164  git status
+  165  ll
+  166  git push origin master
+  167  git push pkorigin master
+  168  git pull okorigin master
+  169  git pull pkorigin master
+  170  ls
+  171  ll
+  172  ls -larth
+  173  history
+  174  git status
+  175  ls
+  176  vi test2
+  177  git status
+  178  git add test2
+  179  git status
+  180  git stash 
+  181  git status
+  182  git pop
+  183  git stash pop
+  184  git status
+  185  git stash apply
+  186  git status
+  187  git stash
+  188  git log
+  189  git stash apply
+  190  git status
+  191  git status
+  192  git commit -m "adding test2 file"
+  193  git status
+  194  git branch ravi
+  195  git status
+  196  git branch
+  197  git checkout ravi
+  198  git status
+  199  git status
+  200  git log
+  201  vi test3
+  202  git status
+  203  git stash list
+  204  vi test4
+  205  git status
+  206  git stash
+  207  git status
+  208  git stash list
+  209  git add test{3,4}
+  210  git status
+  211  git stash
+  212  cat > test5
+  213  git status
+  214  git stash
+  215  git add test5
+  216  git stash
+  217  git stash list
+  218  git stash save "adding to our site"
+  219  git stash
+  220  git stash list
+  221  git stash pop stash@{2}
+  222  git status
+  223  git stash show
+  224  git stash list
+  225  git status
+  226  git stash show
+  227  git stash show -p
+  228  git status
+  229  git stash show
+  230  git stash -p
+  231  git status
+  232  cd ..
+  233  cd ravi
+  234  git status
+  235  git commit -m "deleted test files"
+  236  git add .
+  237  git status
+  238  git commit -m "deleted test files and 26jun2023"
+  239  git status
+  240  git stash
+  241  git status
+  242  ls
+  243  ls -l 26Jun2023/
+  244  ls -l 26Jun2023/26Jun2023/
+  245  git status
+  246  git stash list
+  247  git status
+  248  git status
+  249  git branch
+  250  git logs
+  251  git log
+  252  git checkout master
+  253  ls
+  254  vi test3
+  255  git status
+  256  git add test3
+  257  git status
+  258  git commit -m "Adding test3 file"
+  259  git status
+  260  git log
+  261  cat > test4
+  262  git add test4
+  263  git commit -m "Adding test4"
+  264  git push origin master
+  265  history | less
+  266  git push pkorigin master
+  267  git push --help
+  268  git branch
+  269  git rebase ravi
+  270  git status
+  271  git push pkorigin master
+  272  git checkout ravi
+  273  git log
+  274  git checkout master
+  275  git log
+  276  git branch
+  277  git push pkorigin master
+  278  git push -f pkorigin master
+  279  git status
+  280  vi test5
+  281  git add test5
+  282  git commit -m "adding test5"
+  283  git push pkorigin master
+  284   git ls-remote -h https://github.com/connect2pratap/26Jun2023.git 
+  285   git ls-remote -h https://github.com/connect2pratap/26Jun2023.git HEAD
+  286  git ls-remote -h https://github.com/connect2pratap/26Jun2023.git HEAD
+  287  cat > test6
+  288  git add test6
+  289  git commit -m "Adding test6 file"
+  290  git push pkorigin master
+  291  cat > test7
+  292  git add test7
+  293  git commit -m "Adding Test7 File"
+  294  git push pkorigin master
+  295  cat > testing1
+  296  git add testing1
+  297  git commit -m "adding testing1 file"
+  298  git push pkorigin master
+  299  cat >
+  300  cat > testing2
+  301  git add testing2
+  302  git commit -m "adding testing2"
+  303  git push pkorigin master
+  304  cat > test9
+  305  git add test9
+  306  git commit -m "adding test9"
+  307  git push pkorigin master
+  308  git status
+  309  cat > ddd
+  310  git add ddd
+  311  git commit -m "adding ddd"
+  312  git push pkorigin master
+  313  ls
+  314  cat > lll
+  315  git add lll
+  316  git commit -m "Adding lll"
+  317  git push pkorigin master
+  318  ls
+  319  cat > git-job-02
+  320  git add git-job-02
+  321  git commit -m "Adding git-job-02"
+  322  git push pkorigin master
+  323  cat > wed-file-01
+  324  git add wed-file-01
+  325  git commit -m "Adding wed-file-01"
+  326  git push pkorigin master
+  327  git status
+  328  git status
+  329  cat > pop
+  330  git add pop
+  331  git commit -m "adding pop file"
+  332  git push pkorigin master
+  333  ls
+  334  cat > jocky
+  335  git add jocky
+  336  git commit -m "adding jockey"
+  337  git push pkorigin master
+  338  cat > jack
+  339  git add jack
+  340  git commit -m "Adding jack file"
+  341  git push pkorigin master
+  342  cat > topas
+  343  git add topas
+  344  git commit -m "adding topas"
+  345  git push pkorigin master
+  346  cat > lop
+  347  git add lop
+  348  git commit -m "adding lop file"
+  349  git push pkorigin master
+  350  cat > lkg
+  351  git add lkj
+  352  git commit -m "adding lkg file"
+  353  cat > lkg
+  354  git add lkj
+  355  cat > paas
+  356  cat paas
+  357  git add paas
+  358  git commit -m "adding paas file"
+  359  git push pkorigin master
+  360  ls
+  361  cat > akguru
+  362  git add akguru
+  363  git commit -m "adding akguru file"
+  364  git push pkorigin master
+  365  pwd
+  366  ls
+  367  w
+  368  git remote
+  369  git remote add origin https://github.com/connect2pratap/test01.git
+  370  git remote
+  371  git remote remove origin https://github.com/connect2pratap/test01.git
+  372  git remote remove origin
+  373  git remote
+  374  git remote add test01 https://github.com/connect2pratap/test01.git
+  375  git remote
+  376  git remote -v
+  377  mkdir test01
+  378  cd test01
+  379  ls
+  380  cat > test1
+  381  git add test1
+  382  git commit -m "adding test1"
+  383  git status
+  384  git push test01 master
+  385  git status
+  386  ls
+  387  cat > test2
+  388  git add .
+  389  git commit -m "Adding test files"
+  390  git remote
+  391  git push test01 master
+  392  cat > test3
+  393  git add test3
+  394  git commit -m "adding test3"
+  395  git push test01 master
+  396  cat >> test3
+  397  git add test3
+  398  git commit -m "adding test3"
+  399  git push test01 master
+  400  cat > test4
+  401  git add .
+  402  git commit -m "adding"
+  403  git push test01 master
+  404  git status
+  405  git remote
+  406  cat > pop
+  407  git add pop
+  408  git commit -m "adding pop"
+  409  git push test01 master
+  410  echo "Welcome to Kiran" > plp
+  411  git add plp
+  412  git commit -m "add plp"
+  413  git push test01 master
+  414  echo "Demo" > lml
+  415  git add lml
+  416  git commit -m " adding lml"
+  417  git push test01 master
+  418  ls
+  419  cd test01
+  420  ls
+  421  cat > plp
+  422  git add plp
+  423  git commit -m "adding plp"
+  424  git push test01 master
+  425  git remote
+  426  git remote remove test01
+  427  git remote add origin https://github.com/connect2pratap/10feb23.git
+  428  git remote
+  429  git remote remove origin
+  430  git remote add pkfeb https://github.com/connect2pratap/10feb23.git
+  431  cd ..
+  432  cd ..
+  433  exit
+  434  git remote
+  435  git remote remove pkfeb
+  436  exit
+  437  git status
+  438  git init
+  439  git status
+  440  cat > index.html
+  441  git add index.html
+  442  git commit -m "Adding index.html"
+  443  git remote add pkfeb https://github.com/connect2pratap/10feb23.git
+  444  git remote
+  445  git push pkfeb master
+  446  ls
+  447  cat > test.html
+  448  git add test.html
+  449  git commit -m "adding html file"
+  450  git remote
+  451  git push pkfeb master
+  452  pwd
+  453  git status
+  454  git remote
+  455  git remote -v
+  456  git remote remove pkfeb
+  457  git remote add origin https://github.com/connect2pratap/10feb23.git
+  458  git remote
+  459  git remote -v
+  460  cat > demo.html
+  461  git add .
+  462  git commit -m "adding html files"
+  463  git push origin master
+  464  git pull https://github.com/connect2pratap/10feb23.git
+  465  git status
+  466  git log
+  467  exit
+  468  ls
+  469  cat > index.html
+  470  cat index.html 
+  471  git init
+  472  git status
+  473  git add .
+  474  git commit -m "Adding index file"
+  475  git remote add origin https://github.com/connect2pratap/11feb23.git
+  476  git remote
+  477  git push origin master
+  478  cat > test
+  479  git add .
+  480  git commit -m "adding file"
+  481  git push origin master
+  482  ls
+  483  cat > homepage.html
+  484  git add .
+  485  git commit -m "adding home page"
+  486  git push origin master
+  487  ls
+  488  cat > contact.html
+  489  git add .
+  490  git commit -m "Adding Contact us page"
+  491  git push origin master
+  492  ls
+  493  cat > aboutus.html
+  494  git add .
+  495  git commit -m "Adding About us html page"
+  496  git push origin master
+  497  cat > products.html
+  498  git add .
+  499  git commit -m "Adding Products html page"
+  500  git push origin master
+  501  ls
+  502  mkdir test1
+  503  cd test1
+  504  git init
+  505  ls
+  506  git status
+  507  cat > one
+  508  cat one
+  509  git add .
+  510  git status
+  511  git commit -m "Adding one file"
+  512  git status
+  513  git logs
+  514  git show
+  515  git show commit
+  516  git log
+  517  git log --online
+  518  git branches
+  519  git branch
+  520  git branch dev
+  521  git checkout dev
+  522  git status
+  523  cat > devone
+  524  cat devone
+  525  git commit -m "Adding devone file"
+  526  git commit -f -m "Adding devone file"
+  527  git add devone
+  528  git status
+  529  git commit -m "Adding git devone file"
+  530  git log
+  531  git log 
+  532  git log --oneline
+  533  git log
+  534  git merge 
+  535  git ls
+  536  history | less
+  537  history > githistory
